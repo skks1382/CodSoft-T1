@@ -1,0 +1,277 @@
+/* 
+    CodSoft Internship - Web Development
+    Batch - May
+    Name - Suraj Kumar Sharma
+    Date - 26/05/2024
+    Level 1 (Task 1) - Portfolio 
+*/
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.active {
+  color: white;
+}
+
+/* Header Styles */
+header {
+  background: #1c1e21;
+  position: sticky;
+  width: 100%;
+}
+
+/* Navbar Styles */
+nav {
+  position: sticky;
+  width: 100%;
+}
+
+nav ul li:hover {
+  color: white;
+  opacity: 80%;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  transition: all 0.3s;
+}
+
+.logo {
+  color: white;
+  opacity: 80%;
+  font-size: 20px;
+}
+
+/* Home Section */
+#home {
+  background-size: cover;
+  text-align: center;
+  padding: 100px;
+  color: #1c1e21;
+  background-image: url("https://www.lendingcrowd.com/wp-content/uploads/2016/03/pablo-12.png");
+}
+
+#home h1 {
+  font-size: 36px;
+  opacity: 90%;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  opacity: 85%;
+}
+
+.btn {
+  margin-top: 3px;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* General Styles */
+strong {
+  font-size: 80px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+details {
+  cursor: pointer;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* About Section */
+#about {
+  margin-top: 0;
+}
+
+.header .row {
+  margin-top: 70px;
+}
+
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col-2 img {
+  max-width: 100%;
+  padding: 10px 0;
+}
+
+.col-2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 10px 0;
+}
+
+.resume {
+  background: radial-gradient(#fff, #ffd6d6);
+  margin-top: 80px;
+  padding: 30px 0;
+}
+
+.col-2 .resume-img {
+  padding: 50px;
+}
+
+small {
+  color: #555;
+}
+
+/* Section Headings */
+#about-heading, #contact-heading {
+  margin-bottom: 50px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-align: center;
+  color: white;
+}
+
+#contact-heading {
+  color: #1c1e21;
+}
+
+/* Contact Section */
+#contact {
+  background-size: cover;
+  background-image: url("./Bg.png");
+  color: #1c1e21;
+}
+
+.start-button {
+  padding: 20px 50px;
+  font-size: 20px;
+}
+
+.start-button:hover {
+  color: white;
+}
+
+.btn {
+  border-radius: 30px;
+}
+
+.submit {
+  margin-top: 10px;
+  padding: 20px 50px;
+  margin-left: 630px;
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+.submit a {
+  color: #1c1e21;
+  text-decoration: none;
+}
+
+.submit:hover a {
+  color: white;
+}
+
+section {
+  padding: 80px;
+}
+
+form input,
+form textarea {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+.footer {
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 60px 0 20px;
+  width: 100%;
+  margin: 0; /* Ensure there's no margin on the footer */
+  box-sizing: border-box;
+}
+
+.footer .container {
+  width: 100%;
+  padding: 0 15px; /* Adjust padding as needed */
+  margin: 0 auto;
+}
+
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer p {
+  color: #8a8a8a;
+}
+
+.footer h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-col1, .footer-col2, .footer-col3, .footer-col4 {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 20px;
+  padding: 0 15px; /* Adjust padding as needed */
+}
+
+.footer-col1 {
+  flex-basis: 30%;
+}
+
+.footer-col2 {
+  text-align: center;
+}
+
+.footer-col2 img {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.footer-col3, .footer-col4 {
+  text-align: center;
+}
+
+.app-logo {
+  margin-top: 20px;
+}
+
+.app-logo img {
+  width: 140px;
+}
+
+.footer li {
+  display: block;
+}
+
+.footer hr {
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+
+.copyright {
+  text-align: center;
+}
