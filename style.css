@@ -76,6 +76,26 @@ nav ul li:hover {
   text-decoration: none;
 }
 
+.btn {
+  margin-top: 3px;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.btn {
+  background-color: #fff;
+  color: #1c1e21; /* Text color */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #f0f0f0; /* Hover background color */
+  color: #1c1e21; /* Hover text color */
+}
+
 /* General Styles */
 strong {
   font-size: 80px;
